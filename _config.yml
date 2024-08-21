@@ -3,6 +3,7 @@ description: "Un site pour apprendre la grammaire russe avec des exemples et des
 theme: just-the-docs
 url: "https://toshkine.github.io/ruslessons"
 lang: "fr"
+
 search_enabled: true
 show_breadcrumbs: true
 
@@ -10,17 +11,3 @@ show_breadcrumbs: true
 back_to_top: true
 back_to_top_text: "Retour en haut"
 footer_content: "© 2024 Grammaire russe."
-
-# Configurations supplémentaires
-last_edit_timestamp: true # Montre la dernière modification
-last_edit_time_format: "%d %b %Y" # Format de la date pour la dernière modification
-
-# Configuration globale de la table des matières
-toc: true
-toc_label: "Sommaire"
-toc_icon: "☰"  # Icône à afficher à côté du titre TOC, optionnel
-
-# Plugins
-plugins:
-  - jekyll-seo-tag
-  - jekyll-github-metadata
