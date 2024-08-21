@@ -14,3 +14,8 @@ footer_content: "© 2024 Grammaire russe."
 # Configurations supplémentaires
 last_edit_timestamp: true # Montre la dernière modification
 last_edit_time_format: "%d %b %Y" # Format de la date pour la dernière modification
+
+# Configuration globale de la table des matières
+toc: true
+toc_label: "Sommaire"
+toc_icon: "☰"  # Icône à afficher à côté du titre TOC, optionnel
