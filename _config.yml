@@ -6,6 +6,8 @@ lang: "fr"
 
 search_enabled: true
 show_breadcrumbs: true
+toc: false
+
 
 # Footer
 back_to_top: true
