@@ -5,3 +5,7 @@ url: "https://toshkine.github.io/ruslessons"
 lang: "fr"
 search_enabled: true
 show_breadcrumbs: true
+
+#footer
+back_to_top: true
+back_to_top_text: "Retour en haut"
