@@ -6,6 +6,11 @@ lang: "fr"
 search_enabled: true
 show_breadcrumbs: true
 
-#footer
+# Footer
 back_to_top: true
 back_to_top_text: "Retour en haut"
+footer_content: "© 2024 Grammaire russe. Tous droits réservés."
+
+# Configurations supplémentaires
+last_edit_timestamp: true # Montre la dernière modification
+last_edit_time_format: "%d %b %Y" # Format de la date pour la dernière modification
