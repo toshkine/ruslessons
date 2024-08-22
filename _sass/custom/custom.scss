@@ -1,34 +1,22 @@
+// Ajuster la largeur de la barre latérale
 .side-bar {
-  z-index: 0;
-  display: flex;
-  flex-wrap: wrap;
-  background-color: $sidebar-color;
-
-  @include mq(md) {
-    flex-flow: column nowrap;
-    position: fixed;
-    width: 10%; // Ajuste cette valeur pour définir la largeur de la barre latérale sur les grands écrans
-    height: 100%;
-    border-right: $border $border-color;
-    align-items: flex-end;
-  }
-
-  @include mq(lg) {
-    width: calc((100% - #{$nav-width + $content-width}) / 20 + #{$nav-width});
-    min-width: 10%; // Ajuste cette valeur également pour les très grands écrans
-  }
-
-  @include mq(sm) {
-    display: none; // Cache la barre latérale sur les petits écrans
-  }
+  width: 15%;
+  min-width: 200px;
 }
 
+// Ajuster la largeur du contenu pour prendre toute la largeur disponible
 .main-content {
-  width: calc(90% - #{$nav-width}); // Ajuste cette valeur pour que le contenu occupe le reste de la largeur
-  margin-left: 10%; // Ajuste en fonction de la largeur de la barre latérale
+  width: 85%;
+  margin-left: 5%;
+}
 
-  @include mq(sm) {
-    width: 100%; // Le contenu principal prend toute la largeur sur les petits écrans
+@media (max-width: 768px) {
+  .side-bar {
+    display: none;
+  }
+
+  .main-content {
+    width: 100%;
     margin-left: 0;
   }
 }
