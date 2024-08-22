@@ -19,10 +19,10 @@
 
 // table
 table {
-    border-collapse: collapse; /* Pour éviter les doubles bordures */
-    width: 100%; /* Pour que le tableau prenne toute la largeur disponible */
+    border-collapse: collapse; 
+    width: 100%; 
 }
 
 table, th, td {
-    border: 1px solid black; /* Bordure noire autour de chaque cellule */
+    border: 1px solid #ddd; 
 }
