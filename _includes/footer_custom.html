@@ -5,7 +5,4 @@
     <p>Dernière modification de cette page : {{ page.last_modified_date | date: "%d %b %Y" }}</p>
   {% endif %}
 
-  {% if site.gh_edit_link %}
-    <p><a href="{{ site.gh_edit_repository }}/blob/{{ site.gh_edit_branch }}{{ page.path }}">{{ site.gh_edit_link_text }}</a></p>
-  {% endif %}
 </footer>
