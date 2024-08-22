@@ -1,13 +1,10 @@
-// Ajuster la largeur de la barre latérale
 .side-bar {
-  width: 15%;
-  min-width: 200px;
+  min-width: 300px;
 }
 
-// Ajuster la largeur du contenu pour prendre toute la largeur disponible
 .main-content {
-  width: 85%;
-  margin-left: 5%;
+  margin-left: 300px;
+  width: calc(100% - 300px); 
 }
 
 @media (max-width: 768px) {
@@ -19,4 +16,4 @@
     width: 100%;
     margin-left: 0;
   }
-} 
+}
