@@ -23,13 +23,21 @@ layout: table_wrappers
       <div id="main-content" class="main-content">
         
 
-        <!-- TOC flottante sur le côté droit -->
-        <aside class="toc-float">
-          <!--<h2 class="no_toc text-delta" id="float-toc">
-            Sur cette page
-          </h2>-->
-          {% include toc.html html=content ordered=true h_min=2 %}
-        </aside>
+<!-- Capturez le contenu de la TOC sans l'afficher -->
+{% capture toc_content %}
+  {% include toc.html html=content ordered=true h_min=2 %}
+{% endcapture %}
+
+{% if toc_content contains "<ol>" %}
+  <!-- Affichage de la TOC flottante uniquement si elle contient des éléments -->
+  <aside class="toc-float">
+    <h2 class="no_toc text-delta" id="float-toc">
+      Sur cette page
+    </h2>
+    {{ toc_content }}
+  </aside>
+{% endif %}
+
 
         <main>
           {% if site.heading_anchors != false %}
