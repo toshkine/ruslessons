@@ -1,15 +1,12 @@
 title: "Grammaire russe"
-description: "Un site pour apprendre la grammaire russe avec des exemples et des exercices."
+description: "Un site pour apprendre la grammaire russe."
 theme: just-the-docs
 url: "https://toshkine.github.io/ruslessons"
 baseurl: "/ruslessons"
 lang: "fr"
-
 search_enabled: true
 show_breadcrumbs: true
 
 # Footer
 back_to_top: true
-back_to_top_text: "Retour en haut"
-
-
+back_to_top_text: "↑ Retour en haut"

@@ -37,9 +37,11 @@ layout: table_wrappers
             {{ content }}
           {% endif %}
 
-          {% if page.has_toc != false %}
+          <!-- Affichage conditionnel du sommaire -->
+          {% if page.has_children %}
             {% include components/children_nav.html %}
           {% endif %}
+          
         </main>
         
         {% include components/footer.html %}

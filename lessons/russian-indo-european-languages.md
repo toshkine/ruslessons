@@ -15,7 +15,7 @@ permalink: /lessons/russian-indo-european-languages/
 1. TOC
 {:toc}
 
-## Place du russe dans les langues indoeuropéennes
+## Place du russe dans les langues indoeuropéennes :)
 
 <table>
     <tbody>

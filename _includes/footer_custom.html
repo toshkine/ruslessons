@@ -1,1 +1,5 @@
-© 2024 Grammaire russe. Enjoy !
+© 2024 Grammaire russe.
+
+  {% if site.footer.back_to_top %}
+    <a href="#top" class="back-to-top">{{ site.footer.back_to_top_text | default: "↑ Retour en haut !" }}</a>
+  {% endif %}
