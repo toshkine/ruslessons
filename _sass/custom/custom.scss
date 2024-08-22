@@ -1,7 +1,12 @@
+// sidebar
 @media (min-width: 66.5rem) {
     .side-bar {
         width: 15%;
         min-width: 300px;
+    }
+    
+    .side-bar + .main {
+        margin-left: 300px;
     }
 }
 
@@ -12,8 +17,12 @@
     }
 }
 
-@media (min-width: 66.5rem) {
-    .side-bar + .main {
-        margin-left: 300px;
-    }
+// table
+table {
+    border-collapse: collapse; /* Pour éviter les doubles bordures */
+    width: 100%; /* Pour que le tableau prenne toute la largeur disponible */
+}
+
+table, th, td {
+    border: 1px solid black; /* Bordure noire autour de chaque cellule */
 }
