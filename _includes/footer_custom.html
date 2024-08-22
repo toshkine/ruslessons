@@ -1,6 +1,11 @@
-# Footer content
-footer_content: "© 2024 Grammaire russe."
+<footer>
+  <p>&copy; {{ "now" | date: "%Y" }} Grammaire russe.</p>
 
-# Footer last edited timestamp
-last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+  {% if page.last_modified_date %}
+    <p>Dernière modification de cette page : {{ page.last_modified_date | date: "%d %b %Y" }}</p>
+  {% endif %}
+
+  {% if site.gh_edit_link %}
+    <p><a href="{{ site.gh_edit_repository }}/blob/{{ site.gh_edit_branch }}{{ page.path }}">{{ site.gh_edit_link_text }}</a></p>
+  {% endif %}
+</footer>
