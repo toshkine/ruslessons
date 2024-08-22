@@ -8,6 +8,10 @@
     .side-bar + .main {
         margin-left: 300px;
     }
+
+    .site-nav, .site-header, .site-footer {
+        width: 100%;
+    }
 }
 
 @media (min-width: 50rem) {
