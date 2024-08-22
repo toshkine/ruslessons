@@ -1,6 +1,8 @@
-.side-bar {
-    width: 15%;
-    min-width: 300px;
+@media (min-width: 66.5rem) {
+    .side-bar {
+        width: 15%;
+        min-width: 300px;
+    }
 }
 
 @media (min-width: 50rem) {
