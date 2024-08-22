@@ -1,19 +1,17 @@
 .side-bar {
-  min-width: 300px;
+    width: 15%;
+    min-width: 300px;
 }
 
-.main-content {
-  margin-left: 300px;
-  width: calc(100% - 300px); 
+@media (min-width: 50rem) {
+    .main {
+        position: relative;
+        max-width: 100%;
+    }
 }
 
-@media (max-width: 768px) {
-  .side-bar {
-    display: none;
-  }
-
-  .main-content {
-    width: 100%;
-    margin-left: 0;
-  }
+@media (min-width: 66.5rem) {
+    .side-bar + .main {
+        margin-left: 300px;
+    }
 }
