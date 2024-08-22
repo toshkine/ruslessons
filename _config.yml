@@ -2,6 +2,7 @@ title: "Grammaire russe"
 description: "Un site pour apprendre la grammaire russe avec des exemples et des exercices."
 theme: just-the-docs
 url: "https://toshkine.github.io/ruslessons"
+baseurl: "/ruslessons"
 lang: "fr"
 
 search_enabled: true
