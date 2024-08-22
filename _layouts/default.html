@@ -24,7 +24,10 @@ layout: table_wrappers
         
         <!-- TOC flottante sur le côté droit -->
         <aside class="toc-float">
-          {% include toc.html html=content ordered=true %}
+          <h2 class="no_toc text-delta" id="float-toc">
+            Sur cette page
+          </h2>
+          {% include toc.html html=content ordered=true h_min=2 %}
         </aside>
 
         <main>
