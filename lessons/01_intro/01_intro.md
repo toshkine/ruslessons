@@ -10,5 +10,3 @@ permalink: /lessons/intro/
 
 Hello lorem ipsum
 
-{% children %}
-
