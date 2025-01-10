@@ -8,3 +8,7 @@ permalink: /lessons/intro/
 
 # Intro
 
+Hello lorem ipsum
+
+{% children %}
+
