@@ -3,7 +3,7 @@ title: "Le russe dans les langues indoeuropéennes"
 layout: "default"
 parent: "Introduction à la langue russe"
 nav_order: 1
-permalink: /lessons/russian-indo-european-languages/
+permalink: /lessons/introduction/russian-indo-european-languages/
 ---
 
 # La langue russe
