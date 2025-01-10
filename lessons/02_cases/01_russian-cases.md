@@ -1,9 +1,9 @@
 ---
-title: "The cases in russian"
+title: "Les cas"
 layout: "default"
 nav_order: 2
 has_children: true
-permalink: /lessons/russian-cases/
+permalink: /lessons/cases/
 ---
 
 # The cases in russian

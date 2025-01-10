@@ -1,12 +1,12 @@
 ---
-title: "The Prepositional case - Предложный падеж"
+title: "Le prépositionnel - Предложный падеж"
 layout: "default"
-parent: "The cases in russian"
+parent: "Les cas"
 nav_order: 2
-permalink: /lessons/russian-cases/prepositional-case/
+permalink: /lessons/cases/prepositional-case/
 ---
 
-# The Prepositional case - Предложный падеж
+# Le prépositionnel - Предложный падеж
 {: .no_toc }
 
 ## Table des matières

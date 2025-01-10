@@ -1,7 +1,7 @@
 ---
-title: "The accusative"
+title: "L'accusatif"
 layout: "default"
-parent: "The cases in russian"
+parent: "Les cas"
 nav_order: 1
-permalink: /lessons/russian-cases/accusative-case/
+permalink: /lessons/cases/accusative-case/
 ---
