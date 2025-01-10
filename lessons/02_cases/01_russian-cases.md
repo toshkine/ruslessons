@@ -8,3 +8,5 @@ permalink: /lessons/russian-cases/
 
 # The cases in russian
 
+Lorem ipsum
+

@@ -10,3 +10,8 @@ permalink: /lessons/intro/
 
 Hello lorem ipsum
 
+<hr>
+<h2 class="text-delta">Sommaire</h2>
+
+- [Chapitre 1](/ruslessons/lessons/intro/test1/)
+
