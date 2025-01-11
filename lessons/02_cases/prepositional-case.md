@@ -21,6 +21,7 @@ permalink: /lessons/cases/prepositional-case/
 Here table about declention
 
 
+
 ## The use
 
 О КОМ? О ЧЁМ?
@@ -28,9 +29,9 @@ Here table about declention
 <table>
   <thead>
     <tr>
-      <th>MEANING</th>
-      <th>CONSTRUCTION</th>
-      <th>EXAMPLES</th>
+      <th>Répond à la question</th>
+      <th>Construction</th>
+      <th>Exemples</th>
     </tr>
   </thead>
   <tbody>
