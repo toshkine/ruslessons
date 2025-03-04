@@ -38,7 +38,7 @@ Il répond aux questions « О ком? О чём? Где? » (De qui ? De quoi ?
   </colgroup>
   <thead>
     <tr>
-      <th>Répond à la question</th>
+      <th>Signification</th>
       <th>Construction</th>
       <th>Exemples</th>
     </tr>
@@ -92,7 +92,7 @@ Il répond aux questions « О ком? О чём? Где? » (De qui ? De quoi ?
   </colgroup>
   <thead>
     <tr>
-      <th>Répond à la question</th>
+      <th>Signification</th>
       <th>Construction</th>
       <th>Exemples</th>
     </tr>
@@ -150,7 +150,7 @@ Il répond aux questions « О ком? О чём? Где? » (De qui ? De quoi ?
   </colgroup>
   <thead>
     <tr>
-      <th>Répond à la question</th>
+      <th>Signification</th>
       <th>Construction</th>
       <th>Exemples</th>
     </tr>
@@ -199,7 +199,7 @@ Il répond aux questions « О ком? О чём? Где? » (De qui ? De quoi ?
   </colgroup>
   <thead>
     <tr>
-      <th>Répond à la question</th>
+      <th>Signification</th>
       <th>Construction</th>
       <th>Exemples</th>
     </tr>
@@ -241,7 +241,7 @@ Il répond aux questions « О ком? О чём? Где? » (De qui ? De quoi ?
   </colgroup>
   <thead>
     <tr>
-      <th>Répond à la question</th>
+      <th>Signification</th>
       <th>Construction</th>
       <th>Exemples</th>
     </tr>
@@ -276,7 +276,7 @@ Il répond aux questions « О ком? О чём? Где? » (De qui ? De quoi ?
   </colgroup>
   <thead>
     <tr>
-      <th>Répond à la question</th>
+      <th>Signification</th>
       <th>Construction</th>
       <th>Exemples</th>
     </tr>
@@ -304,7 +304,7 @@ Il répond aux questions « О ком? О чём? Где? » (De qui ? De quoi ?
 <table>
   <thead>
     <tr>
-      <th>Répond à la question</th>
+      <th>Signification</th>
       <th>Construction</th>
       <th>Exemples</th>
     </tr>
